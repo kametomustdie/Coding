@@ -5,7 +5,7 @@
   <script>
     'use strict';
    let numericRange = +prompt("Введи число в диапазоне от 14 до 90");
-   if (numericRange >= 14 && numericRange <= 90) {
+   if (numericRange >= 14 && numericRange <= 90) { // если нужен чтобы было НЕ в диапозоне, то нужно добавить (!(numericRange
    alert(`Да, твоё число ${numericRange} подходит под заданный диапазон`);
    }
    else if (alert('Твое число вне диапазона')) {
