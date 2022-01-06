@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <script>
+    'use strict';
+   let numericRange = +prompt("Введи число в диапазоне от 14 до 90");
+   if (numericRange >= 14 && numericRange <= 90) {
+   alert(`Да, твоё число ${numericRange} подходит под заданный диапазон`);
+   }
+   else if (alert('Твое число вне диапазона')) {
+   }
+   else if(numericRange != Number(numericRange)){
+   alert("Принимаются только числа");
+   }
+   </script>
+ </body>
+ </html>
